@@ -1,0 +1,137 @@
+/* common shared styles */
+.body{
+    font-family: "Open Sans", sans-serif;
+}
+header{
+    /* background-position: bottom left top center; */
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    border-radius: 0;
+    background-image: url("../images/banner/banner2.png")
+    
+}
+/* .banner{ */
+    /* padding: 30px 30px 0px 150px; */
+    /* display: flex; */
+    /* align-items: right; */
+    
+
+
+/* banner related stylels */
+/* .profile-pic{ */
+    /* text-align: left; */
+    /* bottom: top; */
+    .banner{
+        padding:  150px 50px;
+        text-align: right;
+        justify-content: space-between;
+        margin: 0 ;
+        /* padding-left: 20px; */
+        
+    }
+        
+        
+.banner-title{
+    /* text-align:right; */
+    font-size: 65px;
+}
+.banner-description{
+    font-size: 16px;
+    /* text-align: right; */
+    /*  */
+
+}
+        .btn-primary{
+        background-color: #F15B22;
+        /* margin: 160px 64px; */
+        text-align: center;
+        padding: 15px 25px;
+        border: 0;
+        font-weight: 700;
+       
+        color: white;
+        border-radius: 5px;
+    
+        }
+        /* section related styles */
+        
+        
+        .clor{
+            color: green;
+        }
+        .paradise{
+            display: flex;
+           padding: 50px 100px;
+           margin: 10px;
+           background-color: rgb(160, 125, 160);
+        }
+        .greeting{
+            font-size: 40px;
+            font-weight: 700;
+            color: #151414;
+            gap: 20px;
+            
+        }
+        .span{
+            padding: 200px 250px;
+            margin-right: 50px;
+        }
+        .boby-deccription{
+            font-size: 16px;
+            color: #444343;
+        }
+        p{
+            font-size: 16px;
+            color: #444343;
+        }
+            /* banner info icons */
+            .banner-info-title{
+                text-align: center;
+                font-size: 40px;
+                font-weight: 700;
+                /* display: flex; */
+            }
+            .banner-info{
+                background-color: rgb(234, 230, 225);
+            }
+           .icons-container{
+            display: flex;
+            gap: 40px;
+            margin-top: 10px ;
+            margin-bottom: 10px;
+
+           }
+           .container{
+            padding: 20px 60px;
+            border-radius: 5px;
+            /* box-shadow: 0px 6px 10px 0px; */
+            border: 0;
+            margin: 20px;
+           }
+           .icon-title{
+            font-size: 40px;
+            margin: 5px;
+           }
+           .icon-descrition{
+            font-size: 25px;
+            margin: 10px;
+           }
+           /* second-banner-information */
+           .second-banner-info {
+            background-repeat: no-repeat;
+            width: 1140px; 
+            height: 300px;
+            background-image:  url("../images/watch.png");
+            padding-top: 10px;
+            padding-left: 200px; 
+            /* background-size: 500px; */
+             /* width: 2000px;  */
+            /* height: 400px; */
+           }
+           /* .banner-image{ */
+            /* padding-top: 10px; */
+            /* padding-left: 150px; */
+           
+           
+        
