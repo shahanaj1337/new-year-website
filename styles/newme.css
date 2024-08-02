@@ -5,10 +5,13 @@
 header{
     /* background-position: bottom left top center; */
     background-repeat: no-repeat;
-    width: 1600px;
+    width: 2000px;
     height: 808px;
     border-radius: 0;
+    padding-right: 300px;
+    background-size: cover;
     background-image: url("../images/banner/banner2.png")
+    
     
 }
 /* .banner{ */
@@ -118,20 +121,92 @@ header{
             margin: 10px;
            }
            /* second-banner-information */
-           .second-banner-info {
+          .second-banner {
             background-repeat: no-repeat;
-            width: 1140px; 
-            height: 300px;
-            background-image:  url("../images/watch.png");
-            padding-top: 10px;
-            padding-left: 200px; 
-            /* background-size: 500px; */
-             /* width: 2000px;  */
-            /* height: 400px; */
+            padding-right: 500px;
+            width:2000px; 
+            height: 600px;
+            /* background-position: center; */
+            background-size: cover;
+            margin: 100px;
+        background-image:  url("../images/watch.png");
+        
+           
+             
+            
            }
            /* .banner-image{ */
             /* padding-top: 10px; */
             /* padding-left: 150px; */
+            .second-banner-title{
+                color: #FFFFFF;
+                font-size: 100px;
+                padding: 20px 50px 0;
+                text-align: left;
+                padding-top: 100px;
+                padding-right: 100px;
+                gap: 24px;
+                margin: 20px;
+            }
+            .call-btn{
+                text-align: center;
+        padding: 30px 70px;
+        border: 0;
+        font-weight: 800;
+       margin-left: 80px;
+        color:#F15B22;
+        font-size: 40px;
+        gap: 25px;
+        border-radius: 10px;
+
+            }
+            /* footer related styles */
+            footer{
+                background-color: #151414;
+                border: solid  red;
+                border-radius: 2px;
+                display: flex;
+               justify-content: space-between;
+               /* margin-left: 30px; */
+               gap: 24px;
+               padding: 100px 150px 100px 150px;
+            }
+            .footer-title{
+               color: #F8F8F8;
+                font-size: 50px;
+            }
+           .form-description{
+                display: block;
+                font-size: 25px;
+                padding: 20px 35px;
+                margin: 10px;
+                border-radius: 10px;
+                text-align: left;
+                color: #F8F8F8;
+                
+                
+        
+                
+            }
+            .btn-footer{
+                background-color: #FFFFFF;
+                color: #F15B22;
+                font-size: 30px;
+                padding: 25px;
+                border-radius: 10px;
+                
+            }
+                .footer-description{
+                    color: #F8F8F8;
+                    font-size: 25px;
+                    
+                }
+                div > a{
+                    margin: 5px;
+                    row-gap: 15px;
+                   
+               
+                }
            
            
         
